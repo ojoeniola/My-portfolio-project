@@ -19,6 +19,7 @@ body {
 }
 h1 {
   font-size: 60px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
@@ -64,16 +65,15 @@ p {
 .project-description{
   padding: 120px 60px ;
 }
-@media (max-width 900px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 60px;
+    font-size: 44px;
   }
   h2 {
     font-size: 44px;
+    line-height: 1.5;
   }
   .hero {
-    background-color: var(--secondary-color);
-    text-align: center;
     padding: 80px 20px;
   }
   .project-description {
