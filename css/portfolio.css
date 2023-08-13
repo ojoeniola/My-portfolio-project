@@ -50,7 +50,7 @@ p {
   padding: 160px 20px;
 }
 .container {
-  text-align: center;
+   text-align: center;
   padding: 0;
 }
 .content {
@@ -95,6 +95,34 @@ p {
   border: 10px solid whitesmoke;
   border-radius: 10px;
 }
+.logo {
+  max-width: 100%;
+  max-height: 150px;
+}
+nav {
+  padding: 20px 20px;
+  align-items: center;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none; 
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -114,4 +142,7 @@ p {
     padding: 0;
     text-align: center;
   }
+nav a {
+  font-size: 12px;
+}
 }
